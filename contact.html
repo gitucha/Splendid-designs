@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body class="bg-black">
+
+    <div class=" bg-white border border-red-500 m-20 p-20">
+
+        <h1 id="contact" class="text-6xl font-extrabold p-20">Contact Us</h1>
+
+        <p class="text-center mr-14">Communicate with us if youre interested in our projects or have any in mind </p>
+        <div class="flex flex-col items-end p-10">
+
+            <div class="">
+                <label class="mr-14" for="First name">First Name :</label>
+                <input class=" border-b-2 pl-14 pr-14 " id="First name" type="text" placeholder="First name">
+                <br><br>
+            
+                <label class="mr-14" for="Last name">Last Name :</label>
+                <input class=" border-b-2 pl-14 pr-14" id="Last name" type="text" placeholder="Last name">
+                <br><br>
+            </div>
+
+            <div class="">
+                <label class="mr-14" for="Email">Email :</label>
+                <input class="border-b-2 pl-14 pr-14 " type="text" placeholder="Email">
+                <br><br>
+            </div>
+
+            <div class="flex">
+                <label class="mr-12" for="select">Select a category :</label>
+                <select id="select" class="border-b-2 pl-8 pr-8" placeholder="Select category">
+                    <option value=""></option>
+                    <option value="">Living room</option>
+                    <option value="">Bedroom</option>
+                    <option value="">Kitchen</option>
+                    <option value="">Dining Area</option>
+                    <option value="">Balcony</option>
+                    <br>
+                </select>
+                    <label class="mr-12" for="select">Urgency :</label>
+                    <select id="select" class="border-b-2 pl-8 pr-8 " placeholder="Select category">
+                    <option value=""></option>
+                    <option value="">Urgent</option>
+                    <option value="">Not Urgent</option>
+                    
+                    </select>
+                    
+            </div>
+        <button class="bg-blue-300 mt-10">Get In Touch</button>
+        </div>
+
+    </div>
+</body>
+
+</html>

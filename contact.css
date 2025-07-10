@@ -1,0 +1,10 @@
+h1 {
+    background: linear-gradient(to right rgb(2, 2, 64), rgb(5, 5, 193));
+    background-size: 200%;
+    background-clip: text;
+}
+
+#contactform{
+    border: none;
+    border-bottom: 2px;
+}
