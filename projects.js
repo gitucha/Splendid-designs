@@ -1,47 +1,46 @@
-     
-     let icon = document.getElementById("icon");
+let icon = document.getElementById("icon");
 
-       icon.onclick = function(){
-        document.body.classList.toggle("dark-theme");
-        if(document.body.classList.contains("dark-theme")){
-            icon.src = "photos/sun.png"
-        }else{
-            icon.src = "photos/moon.png"
-        }
-       }
-       
+icon.onclick = function () {
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+        icon.src = "photos/sun.png"
+    } else {
+        icon.src = "photos/moon.png"
+    }
+}
 
-let readmore = document.getElementById("readmore1")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
 
-            
-let readmore = document.getElementById("readmore2")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+let readmore1 = document.getElementById("readmore1")
+readmore.onclick = function () {
+    document.body.classList.toggle("")
+}
 
-            
-let readmore = document.getElementById("readmore3")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
 
-            
-let readmore = document.getElementById("readmore4")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+let readmore2 = document.getElementById("readmore2")
+readmore.onclick = function () {
+    document.body.classList.toggle("")
+}
 
-            
-let readmore = document.getElementById("readmore5")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
 
-            
-let readmore = document.getElementById("readmore6")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+let readmore3 = document.getElementById("readmore3")
+readmore.onclick = function () {
+    document.body.classList.toggle("")
+}
+
+
+let readmore4 = document.getElementById("readmore4")
+readmore.onclick = function () {
+    document.body.classList.toggle("")
+}
+
+
+let readmore5 = document.getElementById("readmore5")
+readmore.onclick = function () {
+    document.body.classList.toggle("")
+}
+
+
+let readmore6 = document.getElementById("readmore6")
+readmore.onclick = function () {
+    document.body.classList.toggle("")
+}       

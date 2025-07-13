@@ -3,17 +3,17 @@
     --secondary-color: black;
 }
 
-.darktheme{
+.dark-theme{
     --primary-color: black;
     --secondary-color: white;
 }
 
 #body{
-  background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 #nav{
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 #cards{

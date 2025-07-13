@@ -9,37 +9,37 @@ let icon = document.getElementById("icon");
         }
        }
        
-let readmore = document.getElementById("readmore1")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+// let readmore = document.getElementById("readmore1")
+//      readmore.onclick = function(){
+//         document.body.classList.toggle("")
+//      }       
 
             
-let readmore = document.getElementById("readmore2")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+// let readmore = document.getElementById("readmore2")
+//      readmore.onclick = function(){
+//         document.body.classList.toggle("")
+//      }       
 
             
-let readmore = document.getElementById("readmore3")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+// let readmore = document.getElementById("readmore3")
+//      readmore.onclick = function(){
+//         document.body.classList.toggle("")
+//      }       
 
             
-let readmore = document.getElementById("readmore4")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+// let readmore = document.getElementById("readmore4")
+//      readmore.onclick = function(){
+//         document.body.classList.toggle("")
+//      }       
 
             
-let readmore = document.getElementById("readmore5")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+// let readmore = document.getElementById("readmore5")
+//      readmore.onclick = function(){
+//         document.body.classList.toggle("")
+//      }       
 
             
-let readmore = document.getElementById("readmore6")
-     readmore.onclick = function(){
-        document.body.classList.toggle("")
-     }       
+// let readmore = document.getElementById("readmore6")
+//      readmore.onclick = function(){
+//         document.body.classList.toggle("")
+//      }       
