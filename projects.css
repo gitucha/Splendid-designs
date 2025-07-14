@@ -19,3 +19,11 @@
 #cards{
     color: var(--secondary-color);
 }
+
+#section{
+    color: var(--secondary-color);
+}
+
+#start{
+    background-color: var(--secondary-color);
+}
