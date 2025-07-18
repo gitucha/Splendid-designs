@@ -3,71 +3,101 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <title>Splendid Designs</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@1,400..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body id="body">
+<body id="body" class="body m-6 ">
 
     <div class="">
 
         <!-- Nav bar -->
         <div>
             <nav id="nav" class="justify-between items-center flex gap-6 p-10">
-                <img src="photos/"></img>
+                
+                   <div style="position: relative; width: 75px; height: 75px;
+              box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                border-radius: 8px; will-change: transform;">
+                <iframe loading="lazy"
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https://www.canva.com/design/DAGtdlRPBig/OSCUpBmFdSwc7o793e-GtA/view?embed">
+                </iframe>
+            </div>
+
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGtdlRPBig&#x2F;OSCUpBmFdSwc7o793e-GtA&#x2F;view?utm_content=DAGtdlRPBig&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                target="_blank" rel="noopener"></a>
+
+
                 <ul class="flex gap-6">
-                    <a href="index.html">Home</a>
-                    <li></li>
-                    <a href="projects.html">Our projects</a>
-                    <li></li>
-                    <!-- <a href="team.html">Our Team</a><li></li> -->
-                    <a href="contact.html">Contact us</a>
-                    <li></li>
+                    <a href="index.html" class="hover:text-blue-500 duration-300 ">Home</a>
+                    <a href="projects.html" class="hover:text-blue-500 duration-300 ">Our projects</a>
+                    <a href="contact.html" class="hover:text-blue-500 duration-300 ">Contact us</a>
+                    <img id="icon" src="photos/moon.png" width="25px" alt="" class="cursor-pointer">
                 </ul>
-                <img id="icon" src="photos/moon.png" width="25px" alt="" class="cursor-pointer" >
+
             </nav>
         </div>
 
         <p><span class="contact-us-text">Contact us</span></p>
 
-        <p id="comms" class="text-center mr-14 text-lg ">Communicate with us if youre interested in our projects or have any in
-            mind </p>
-            
+        <div>
+            <h1 id="comms" class="text-center ml-14 mr-14 text-xl font-medium">Communicate with us if youre interested
+                in our projects or have anything in mind.
+                Fill in the form below and we will reply to you or send you an email within utmost three business days
+                and we can therefore begin to benign to project to reality
+            </h1>
+        </div>
 
-        <div id="p1" class="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-12 p-4 md:p-8 max-w-6xl mx-auto">
+
+        <div id="p1"
+            class="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-12 p-4 md:p-8 max-w-6xl mx-auto">
             <div class="w-full md:w-1/2 lg:w-2/5 p-6 bg-white rounded-lg shadow-lg">
                 <p class="text-lg leading-relaxed text-gray-700">
                     <strong class="text-xl text-blue-600">Looking to transform your space?</strong>
                     Whether it's a stunning interior refresh or a captivating exterior design, we're here to bring your
                     vision to life.
-                    Don't hesitate to get in touch with our team today to discuss your project, ask questions, or schedule a
+                    Don't hesitate to get in touch with our team today to discuss your project, ask questions, or
+                    schedule a
                     consultation.
                     We're excited to hear from you and help create the home or business you've always dreamed of.
                 </p>
+
+                <iframe class="rounded-lg"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5181.864958594943!2d36.80397746618051!3d-1.264907538162802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173feeffb9ed%3A0x84af951be00e7d78!2sMPAKA%20HOUSE%2C%201870%20Mpaka%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1752429692105!5m2!1sen!2ske"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
             </div>
 
-            <form id="contactForm" class="w-full md:w-1/2 lg:w-2/5 p-6 bg-white rounded-lg shadow-lg flex flex-col gap-6">
+            <form id="contactForm"
+                class="w-full md:w-1/2 lg:w-2/5 p-6 bg-white rounded-lg shadow-lg flex flex-col gap-6">
                 <div>
                     <label for="firstName" class="block text-gray-700 text-sm font-bold mb-2">First Name:</label>
                     <input type="text" id="firstName" name="firstName" placeholder="First name" required
-                           class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
+                        class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
                 </div>
                 <div>
                     <label for="lastName" class="block text-gray-700 text-sm font-bold mb-2">Last Name:</label>
                     <input type="text" id="lastName" name="lastName" placeholder="Last name" required
-                           class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
+                        class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
                 </div>
                 <div>
                     <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
                     <input type="email" id="email" name="email" placeholder="Email" required
-                           class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
+                        class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
                 </div>
                 <div>
                     <label for="category" class="block text-gray-700 text-sm font-bold mb-2">Select a category:</label>
                     <select id="category" name="category" required
-                            class="shadow border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
+                        class="shadow border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:border-blue-500">
                         <option value="">--Please choose an option--</option>
                         <option value="living-room">Living room</option>
                         <option value="bedroom">Bedroom</option>
@@ -77,31 +107,31 @@
                     </select>
                 </div>
                 <button type="submit"
-                        class="get-in-touch-button bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out self-center md:self-end">
+                    class="get-in-touch-button bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out self-center md:self-end">
                     Get in touch
                 </button>
             </form>
         </div>
 
-            </div>
-            <!-- <button id="getintouch" class="bg-blue-300 mt-10 rounded-xl p-1 mr-20">Get In Touch</button> -->
+    </div>
+    <!-- <button id="getintouch" class="bg-blue-300 mt-10 rounded-xl p-1 mr-20">Get In Touch</button> -->
 
-            <!-- <p><button class="contact-us-text">Get in Touch</button></p> -->
-        </div>
+    <!-- <p><button class="contact-us-text">Get in Touch</button></p> -->
+    </div>
 
-        <div class="flex-col items-start">
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5181.864958594943!2d36.80397746618051!3d-1.264907538162802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173feeffb9ed%3A0x84af951be00e7d78!2sMPAKA%20HOUSE%2C%201870%20Mpaka%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1752429692105!5m2!1sen!2ske"
+    <div class="flex-col items-start">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5181.864958594943!2d36.80397746618051!3d-1.264907538162802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f173feeffb9ed%3A0x84af951be00e7d78!2sMPAKA%20HOUSE%2C%201870%20Mpaka%20Rd%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1752429692105!5m2!1sen!2ske"
              width="400" height="300" style="border:0;" 
              allowfullscreen="" 
              loading="lazy" 
              referrerpolicy="no-referrer-when-downgrade">
             </iframe> -->
-        </div>
+    </div>
     </div>
 
     <div class="slider" style="
-        --width: 200px;
-        --height: 200px;
+        --width: 150px;
+        --height: 150px;
         --quantity: 6;
             ">
         <div class="list">
@@ -113,6 +143,22 @@
             <div class="item" style="--position: 6">Get In Touch</div>
         </div>
     </div>
+
+
+    <footer class=" rounded-lg shadow-sm m-4">
+
+        <div id="footer" class="w-full p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm sm:text-center"> &copy; 2025 <a href="index.html" class="hover:underline">Splendid
+                    Designs™</a>. All Rights Reserved.</span>
+            <ul class="  flex items-center mt-3 text-sm font-medium">
+                <hr class="border:border-2">
+                <li><a href="index.html" class="hover:underline me-4 md:me-6">Home</a></li>
+                <li><a href="projects.html" class="hover:underline me-4 md:me-6">Our projects</a></li>
+                <li><a href="contact.html" class="hover:underline">Contact</a></li>
+
+            </ul>
+        </div>
+    </footer>
 
     <script src="index.js"></script>
 </body>

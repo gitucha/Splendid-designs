@@ -3,27 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <title>Splendid Designs</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@1,400..900&family=Roboto+Slab:wght@100..900&display=swap" 
+    rel="stylesheet">
 </head>
 
-<body id="body">
+<body id="body" class="body m-6 " >
     <div>
         <nav id="nav" class="justify-between items-center flex gap-6 p-10">
-            <img src="photos/"></img>
+            
+               <div style="position: relative; width: 75px; height: 75px;
+              box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                border-radius: 8px; will-change: transform;">
+                <iframe loading="lazy"
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https://www.canva.com/design/DAGtdlRPBig/OSCUpBmFdSwc7o793e-GtA/view?embed">
+                </iframe>
+            </div>
+
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGtdlRPBig&#x2F;OSCUpBmFdSwc7o793e-GtA&#x2F;view?utm_content=DAGtdlRPBig&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+                target="_blank" rel="noopener"></a>
+
+
             <ul class="flex gap-6">
-                <a href="index.html">Home</a>
-                <li></li>
-                <a href="projects.html">Our projects</a>
-                <li></li>
-                <!-- <a href="team.html">Blog</a> -->
-                <li></li>
-                <a href="contact.html">Contact us</a>
-                <li></li>
+                <a href="index.html" class="hover:text-blue-500 duration-300 " >Home</a>
+                <a href="projects.html" class="hover:text-blue-500 duration-300 ">Our projects</a>
+                <a href="contact.html" class="hover:text-blue-500 duration-300 ">Contact us</a>
+                 <img id="icon" src="photos/moon.png" width="25px" alt="" class="cursor-pointer" >
             </ul>
-            <img id="icon" src="photos/moon.png" width="25px" alt="">
+           
         </nav>
     </div>
 
@@ -134,20 +147,16 @@
 
 
 
-<footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
-    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="index.html" class="hover:underline">Splendid Designs™</a>. All Rights Reserved.
-    </span>
-    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-        <li>
-            <a href="index.html" class="hover:underline me-4 md:me-6">Home</a>
-        </li>
-        <li>
-            <a href="projects.html" class="hover:underline me-4 md:me-6">Our projects</a>
-        </li>
-        <li>
-            <a href="contact.html" class="hover:underline">Contact</a>
-        </li>
+<footer class=" rounded-lg shadow-sm m-4">
+
+    <div id="footer" class="w-full p-4 md:flex md:items-center md:justify-between">
+    <span class="text-sm sm:text-center"> &copy; 2025 <a href="index.html" class="hover:underline">Splendid Designs™</a>. All Rights Reserved.</span>
+    <ul class="  flex items-center mt-3 text-sm font-medium">
+        <hr class="border:border-2">
+        <li><a href="index.html" class="hover:underline me-4 md:me-6">Home</a></li>
+        <li><a href="projects.html" class="hover:underline me-4 md:me-6">Our projects</a></li>
+        <li><a href="contact.html" class="hover:underline">Contact</a></li>
+
     </ul>
     </div>
 </footer>

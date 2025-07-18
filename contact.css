@@ -10,6 +10,9 @@
 
 #body{
     background-color: var(--primary-color);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
 }
 
 #nav{
@@ -18,6 +21,7 @@
 
 #comms{
    color: var(--secondary-color);
+   
 }
 
 #p1{
@@ -28,15 +32,27 @@
 color: var(--secondary-color);
 }
 
-#contact {
+#contact{
     background: linear-gradient( to right rgb(86, 86, 242),rgb(1, 1, 220));
-  color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
-#getintouch {
+#getintouch{
     background: linear-gradient(to right  rgb(86, 86, 242),rgb(1, 1, 220));
 
 }
+
+#footer{
+    color: var(--secondary-color);
+}
+
+
+.body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+
 
 .contact-us-text {
     font-size: 6em;
@@ -44,6 +60,7 @@ color: var(--secondary-color);
     background-image: linear-gradient(60deg, #02102f, #9493f1); 
     background-clip: text;  
     color: transparent;
+    margin-left: 40px;
 }
 
 .get-in-touch-button {

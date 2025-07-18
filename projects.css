@@ -10,6 +10,9 @@
 
 #body{
   background-color: var(--primary-color);
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
 }
 
 #nav{
@@ -26,4 +29,8 @@
 
 #start{
     background-color: var(--secondary-color);
+}
+
+#footer{
+    color: var(--secondary-color);
 }

@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const readMore6 = document.getElementById('readmore6');
 
     const readMoreButtons = [
-        readmore1, readmore2, readmore3,
-        readmore4, readmore5, readmore6
+        readMore1, readMore2, readMore3,
+        readMore4, readMore5, readMore6
     ];
 
     readMoreButtons.forEach(button => {

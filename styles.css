@@ -21,6 +21,13 @@ background-color: var(--primary-color)
     color: var(--secondary-color);
 }
 
+
+.body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+}
+
 .slider{
     width: 100%;
     height: var(--height);
@@ -62,7 +69,7 @@ background-color: var(--primary-color)
     animation-play-state: paused!important;
     filter: grayscale(1);
 }
-.slider .item:hover{
+.slider .item:hover{ 
     filter: grayscale(0);
 }
 
